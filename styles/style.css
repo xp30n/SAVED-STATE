@@ -8,6 +8,7 @@
 body {
   min-height: 100vh;
   background: radial-gradient(circle at 50% 50%, #0c073a 31.16%, #000 100%);
+  overflow: hidden;
 }
 
 h1 {
@@ -36,12 +37,19 @@ h3 {
   display: block;
   margin: 0 auto;
   transform: translateY(27vh);
+  padding: 1%;
 
-  border-radius: 20px;
+  border: 2px solid white;
+  border-radius: 50px;
   border-color: white;
   background-color: transparent;
+  background-image: none;
 
   color: white;
   font-family: "SavedState";
-  font-size: 3em;
+  font-size: 2em;
+}
+
+.start-btn:hover {
+  border: 2px solid grey;
 }
