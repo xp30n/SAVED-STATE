@@ -1,5 +1,5 @@
+
 document.addEventListener("DOMContentLoaded", () => {
-    // NOTHING HERE YET BOZO
     buttonWorks();
 })
 
