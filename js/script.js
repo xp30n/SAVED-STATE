@@ -9,6 +9,8 @@ function buttonWorks() {
     start.addEventListener("click", mouseClick);
     
     function mouseClick() {
-        console.log("gum.mp3")
+        console.log("START BTN CLICKED");
+
+        
     }
 }
