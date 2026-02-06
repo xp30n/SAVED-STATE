@@ -11,6 +11,6 @@ function buttonWorks() {
     function mouseClick() {
         console.log("START BTN CLICKED");
 
-        
+        window.location.href = "/html/newPage.html"
     }
 }
